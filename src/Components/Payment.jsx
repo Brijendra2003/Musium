@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { QRCodeCanvas } from "qrcode.react";
 
 function Payment({ amount }) {
-  const upiId = "mishrasani2006@oksbi"; // Replace with your actual UPI ID
-  const payeeName = "Sani Mishra";
+  const upiId = "shaikhamaan9820-1@okaxis"; // Replace with your actual UPI ID
+  const payeeName = "Bhumi Dubey";
 
   const generateUPILink = () => {
     if (!amount || parseFloat(amount) <= 0) {
