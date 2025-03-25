@@ -1,0 +1,19 @@
+* {
+  font-family: Bree Serif, Helvetica, sans-serif;
+}
+body {
+  margin: 0%;
+}
+
+.qr-code {
+  /* border: solid 1px; */
+  width: 25vw;
+  margin: auto;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
