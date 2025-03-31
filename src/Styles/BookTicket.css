@@ -1,0 +1,208 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: sans-serif;
+} */
+
+.box-bkt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  border: 1px solid #dadce0;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.box-bkt h2 {
+  margin: 0px 0 -0.125rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  color: #202124;
+  font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.box-bkt p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.box-bkt .inputBox {
+  position: relative;
+}
+
+.box-bkt .inputBox input {
+  width: 93%;
+  padding: 0.625rem 10px;
+  font-size: 1rem;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.box-bkt .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: grey;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box-bkt .inputBox input:focus ~ label,
+.box-bkt .inputBox input:valid ~ label,
+.box-bkt .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 10px;
+  color: #1a73e8;
+  font-size: 0.75rem;
+  background-color: white;
+  height: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box-bkt .inputBox input:focus {
+  outline: none;
+  border: 2px solid #1a73e8;
+}
+.box-bkt input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #1a73e8;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  float: right;
+}
+
+.box-bkt input[type="submit"]:hover {
+  background-color: #287ae6;
+  box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45),
+    0 1px 3px 1px rgba(66, 133, 244, 0.3);
+}
+
+.icon {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  float: right;
+}
+.bktTime,
+#catagorie {
+  width: 93%;
+  padding: 0.625rem 10px;
+  font-size: 1rem;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+}
+.bktTime-Time-lable {
+  position: absolute;
+  top: 27.7vh;
+  left: 5vw;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: grey;
+  pointer-events: none;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.btn-bkt-backbtn {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #1a73e8;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  float: left;
+  margin-left: 0.8vw;
+}
+
+.btn-bkt-submitbtn {
+  position: absolute;
+  top: 96vh;
+  right: 4vw;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #1a73e8;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  float: right;
+}
+
+.cont-payment {
+  /* border: solid 1px; */
+  width: 26vw;
+  margin: auto;
+  border-radius: 8px;
+  height: 95vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: aquamarine;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.innerCont-payment {
+  margin-top: 4vh;
+  border: solid 1px;
+  border-radius: 8px;
+  height: 60vh;
+  width: 22vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pay-details {
+  /* border: solid 1px; */
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.pay-details > * {
+  /* display: flex; */
+  /* border: solid 1px; */
+  padding: 0px;
+  height: 4vh;
+  width: auto;
+  margin: 0.5vh;
+  border-left: solid 3px red;
+  /* background-color: antiquewhite; */
+  border-radius: 5px;
+}

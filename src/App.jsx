@@ -6,6 +6,7 @@ import AboutUS from "./Dashbords/AboutUS";
 import ContactUS from "./Dashbords/ContactUS";
 import Home from "./Dashbords/Home.jsx";
 import Login from "./Login.jsx";
+import Ticket from "./Components/ticket.jsx";
 // import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="AboutUS" element={<AboutUS />} />
         <Route path="ContactUS" element={<ContactUS />} />
         <Route path="Login" element={<Login />} />
+        <Route path="Ticket" element={<Ticket />} />
       </Routes>
     </>
   );

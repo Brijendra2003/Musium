@@ -63,13 +63,13 @@ export default function Navigation({
             to="/AboutUS"
           >
             About-Us
-          </Link>
+          </Link> */}
           <Link
             className={contactus ? "link-visited link" : "link"}
             to="/ContactUS"
           >
             Contact-Us
-          </Link> */}
+          </Link>
           {localStorage.getItem("username") ? (
             <button className="btn-logout" onClick={logout}>
               Logout

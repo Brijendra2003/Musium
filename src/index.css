@@ -7,9 +7,9 @@ body {
 
 .qr-code {
   /* border: solid 1px; */
-  width: 25vw;
+  /* width: 23vw; */
   margin: auto;
-  height: 60vh;
+  height: 42vh;
   display: flex;
   justify-content: center;
   align-items: center;

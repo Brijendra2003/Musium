@@ -1,0 +1,36 @@
+.ticket-container {
+  background-color: black;
+  width: 60vw;
+  /* border: solid 1px; */
+  margin: auto;
+  height: 100vh;
+  color: white;
+  border-radius: 10px;
+  box-shadow: rgba(223, 223, 234, 0.25) 0px 50px 100px -20px,
+    rgba(244, 241, 241, 0.3) 0px 30px 60px -30px,
+    rgba(239, 240, 241, 0.35) 0px -2px 6px 0px inset;
+}
+.ticket-inner-container {
+  background-image: url("/Musium/public/csmvs.png");
+  background-size: 50cap;
+  background-repeat: no-repeat;
+  background-position-x: 8vw;
+  background-position-y: 30vh;
+  text-align: center;
+  height: 100vh;
+}
+.ticket-container > * p {
+  background-color: rgb(175, 235, 215);
+  color: black;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  box-shadow: rgba(223, 223, 234, 0.25) 0px 50px 100px -20px,
+    rgba(244, 241, 241, 0.3) 0px 30px 60px -30px,
+    rgba(239, 240, 241, 0.35) 0px -2px 6px 0px inset;
+  margin-left: 8vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: start;
+  padding: 2px;
+}
